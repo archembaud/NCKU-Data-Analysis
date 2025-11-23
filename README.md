@@ -68,3 +68,29 @@ Number of Iris-setosa flowers: 50
 Type of setosa_data: <class 'pandas.core.frame.DataFrame'>
 Data saved to setosa_data.csv
 ```
+
+## P-3 Simple Graphing and Analysis
+
+In addition to topics covered in P-1 and P-2, this code demonstrates:
+
+* How to create a histogram of the sepal lengths of Iris Setosa flowers from the Iris set.
+* How to perform simple mathematics (mean and standard deviation calculation) on a column in a dataframe.
+
+To run, navigate to the folder from the root of this repository and run:
+
+```
+cd P-3-Data-Graphing
+python main.py
+```
+
+If this worked, you should see the histogram appear:
+
+![SepalLength](./Images/SepalLength.png)
+
+You should also see the mean and standard deviation of the sepal lengths shown in the command line:
+
+```
+Loading data from ./../Data/iris.data
+Mean Sepal Length of Iris-setosa: 5.006
+Standard Deviation of Sepal Length of Iris-setosa: 0.35248968721345136
+```
