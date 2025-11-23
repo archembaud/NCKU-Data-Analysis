@@ -94,3 +94,21 @@ Loading data from ./../Data/iris.data
 Mean Sepal Length of Iris-setosa: 5.006
 Standard Deviation of Sepal Length of Iris-setosa: 0.35248968721345136
 ```
+
+## P-4 3D Scatter Plots
+
+This code builds on the previous examples, and also:
+
+* Loads two different flower types from the Iris set into two different dataframes,
+* Creates a scatter plot of 3 of the properties (SepalLength, SepalWidth and PetalLength) for the two types.
+
+To run:
+
+```
+cd P-4-Scatter-Plot
+python main.py
+```
+
+If this runs properly, you'll see this graph appear:
+
+![ScatterPlot](./Images/ScatterPlot.png)
