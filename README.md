@@ -112,3 +112,22 @@ python main.py
 If this runs properly, you'll see this graph appear:
 
 ![ScatterPlot](./Images/ScatterPlot.png)
+
+## P-5 Dropping Data
+
+This demonstration focuses on the Adult dataset from UCI, found [here](https://archive.ics.uci.edu/dataset/2/adult). This data is a good demonstration set because there are columns with missing data which we might want to move. This is precisely the point of this activity:
+
+* This code identifies rows which have data missing, and then drops them from the dataframe.
+
+If run correctly, you should see output containing this:
+
+```
+Number of rows before dropping missing values: 32561
+Dropping 1843 rows with missing Occupation values
+Number of rows after dropping missing values: 30718
+```
+
+This code also demonstrates:
+* Getting the column names out of the dataframe,
+* Trimming spaces out of data contained in columns.
+
