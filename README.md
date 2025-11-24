@@ -131,3 +131,38 @@ This code also demonstrates:
 * Getting the column names out of the dataframe,
 * Trimming spaces out of data contained in columns.
 
+## P-6 JSON data from HTTP sources
+
+This code demonstrates:
+* Fetching data from a HTTP source instead of a CSV source
+* Minor processing of JSON data before saving into a pandas dataframe
+* Perform some minor counting work on records obtained.
+
+More information about the requests library can be found [here](https://requests.readthedocs.io/en/latest/). Essentially, REST-APIs (Representational State Transfer APIs) form the core of modern internet communications and website designs. Through REST-APIs, we can:
+* Fetch data from online servers for a range of applications,
+* Using data from online servers, render web pages,
+* Manage authorized access to data, creation of data in servers etc.
+
+This code hides a lot of the complexity around HTTP - this will be covered in class.
+
+To run the code - first, make sure you have internet access. This python script reaches out to a server (hosted in AWS) to fetch data. Then, navigate to the root directory of the cloned repository and run:
+
+```
+cd P-6-HTTP-Data
+python main.py
+```
+
+This will produce this output:
+
+```
+User 29c4f681-4baa-4f68-83af-120a5ec1210c has 3 rules in the combined dataframe.
+User c9544cb4-0064-49b2-8ee8-6a8e2706bcaf has 3 rules in the combined dataframe.
+User 75adfe1d-2f27-4f4c-9cf4-c17ed2fdc4fe has 3 rules in the combined dataframe.
+User 01a16664-05bb-4585-a0b2-96d4e2835c7c has 1 rules in the combined dataframe.
+User c0fe91a7-cfc9-4527-967b-4b9b9e1ed730 has 3 rules in the combined dataframe.
+User 84e35798-790c-4a2f-ad95-1644e0d07c60 has 1 rules in the combined dataframe.
+User e0ca46d4-d159-4f20-ac8b-9dcd03c024c0 has 3 rules in the combined dataframe.
+```
+
+A CSV file will also be produced holding the resulting data contained in the dataframe.
+
