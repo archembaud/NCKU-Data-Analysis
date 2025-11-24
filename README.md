@@ -166,3 +166,21 @@ User e0ca46d4-d159-4f20-ac8b-9dcd03c024c0 has 3 rules in the combined dataframe.
 
 A CSV file will also be produced holding the resulting data contained in the dataframe.
 
+## P-7 Merge Demonstration I
+
+This demonstration is the first in the series to use two different starting dataframes and combine them into one. To summarise, this code demonstrates:
+* using a common column (in this case, student IDs) to identify a connection between dataframes, and
+* using this connection to create a new dataframe with data from both originally seperate dataframes.
+
+If executed correctly, this code will produce:
+
+```
+Loading data from ./../Data/SmallStudentSet/students_data.csv
+Loading data from ./../Data/SmallStudentSet/exams_data.csv
+  student_id           subject  score surname  firstname
+0  E14108323           History     85   Huang    Wei-Guo
+1  E14103826  Computer Science     35     Cao    Hao-Hao
+2  E14101956               Art     87      Xu   Ning-Lei
+3  E14108778         Chemistry     31    Yuan  Shan-Zhen
+4  E14105739           English     22     Guo   Xia-Chao
+```

@@ -1,0 +1,201 @@
+student_id,subject,score,surname,firstname
+E14108323,History,85,Huang,Wei-Guo
+E14103826,Computer Science,35,Cao,Hao-Hao
+E14101956,Art,87,Xu,Ning-Lei
+E14108778,Chemistry,31,Yuan,Shan-Zhen
+E14105739,English,22,Guo,Xia-Chao
+E14100609,Art,15,Liu,Xiang-Jie
+E14105278,Art,59,Gao,Zhen-Ping
+E14106315,English,97,Wu,Feng-Ning
+E14104530,History,46,Ma,Ning-Wen
+E14101401,Physical Education,51,Ding,Rong-Zhen
+E14108380,Computer Science,80,Deng,Ming-Ying
+E14109266,Physics,69,Lin,Ning-Wei
+E14100609,English,99,Liu,Xiang-Jie
+E14102558,History,73,Gao,Ting-Zhi
+E14108166,Chemistry,72,Chang,Ning-Kun
+E14101826,Physical Education,100,Zhang,Li-Ning
+E14109835,Geography,31,Liang,Yan-Li
+E14108778,Chemistry,59,Yuan,Shan-Zhen
+E14109835,History,80,Liang,Yan-Li
+E14102950,Art,90,Feng,Qiang-Chao
+E14102797,Art,23,Zhao,Zhen-Feng
+E14100148,Computer Science,38,Wu,Feng-Shan
+E14103656,Mathematics,57,Zhou,Zhong-Zhen
+E14106927,Biology,80,Yuan,Dan-Xiang
+E14106947,English,97,Liang,Wen-Rong
+E14102558,Art,50,Gao,Ting-Zhi
+E14100245,Biology,33,Yang,Ming-Tao
+E14106704,Physics,40,Tang,Guo-Chao
+E14105667,Art,81,Zhou,Tao-Ming
+E14100609,English,12,Liu,Xiang-Jie
+E14104607,Biology,52,Guo,Hao-Dan
+E14105368,Art,96,Xu,Jian-Shan
+E14104541,Computer Science,38,Qian,Wen-Zhong
+E14105278,Geography,33,Gao,Zhen-Ping
+E14108386,Geography,62,Deng,Dan-Qiang
+E14100930,Art,75,Tang,Lei-Ying
+E14102424,Physical Education,70,Wang,Rong-Zhong
+E14105401,Geography,6,Chen,Ping-Zhong
+E14101229,Physics,61,Chang,Xia-Zhi
+E14106704,Computer Science,62,Tang,Guo-Chao
+E14102950,English,1,Feng,Qiang-Chao
+E14108380,Geography,31,Deng,Ming-Ying
+E14107651,Geography,8,Liang,Guo-Yan
+E14100658,Art,80,Zhou,Ping-Jie
+E14102797,Art,54,Zhao,Zhen-Feng
+E14102797,English,23,Zhao,Zhen-Feng
+E14106841,Biology,40,Yuan,Ning-Zhong
+E14100658,Biology,23,Zhou,Ping-Jie
+E14103783,English,87,Zhou,Feng-Zhen
+E14105573,History,79,He,Jie-Lei
+E14103656,Chemistry,33,Zhou,Zhong-Zhen
+E14100648,Physical Education,17,Liang,Yan-Shan
+E14108380,Biology,60,Deng,Ming-Ying
+E14106909,Physical Education,37,Xu,Ping-Xia
+E14108113,Chemistry,34,Zhou,Shan-Zhi
+E14106909,History,4,Xu,Ping-Xia
+E14102265,Biology,26,Xu,Hao-Yan
+E14100930,Art,33,Tang,Lei-Ying
+E14102797,Art,39,Zhao,Zhen-Feng
+E14100930,Computer Science,25,Tang,Lei-Ying
+E14101782,Biology,30,Ma,Jie-Ying
+E14105294,English,9,Liang,Zhi-Zhi
+E14100609,Chemistry,42,Liu,Xiang-Jie
+E14109348,Art,47,Xie,Tao-Zhi
+E14102333,Biology,6,Sun,Ying-Qiu
+E14102364,History,24,Lee,Zhen-Tao
+E14106704,Geography,67,Tang,Guo-Chao
+E14109289,Biology,5,Chen,Qiu-Zhen
+E14104478,Mathematics,2,Gao,Xia-Zhong
+E14109266,Geography,97,Lin,Ning-Wei
+E14103826,Physics,54,Cao,Hao-Hao
+E14105294,Geography,57,Liang,Zhi-Zhi
+E14108144,Mathematics,53,Pan,Wei-Chao
+E14101922,English,64,Xu,Chao-Ming
+E14107671,Geography,72,Lee,Yan-Kun
+E14103826,History,42,Cao,Hao-Hao
+E14107671,Physical Education,70,Lee,Yan-Kun
+E14101782,English,21,Ma,Jie-Ying
+E14108778,Art,25,Yuan,Shan-Zhen
+E14101869,Physics,98,Pan,Zhi-Hua
+E14106909,Biology,10,Xu,Ping-Xia
+E14102364,Geography,51,Lee,Zhen-Tao
+E14105401,Computer Science,37,Chen,Ping-Zhong
+E14106315,English,33,Wu,Feng-Ning
+E14101229,Biology,28,Chang,Xia-Zhi
+E14108248,Chemistry,91,Liang,Zhen-Wei
+E14102364,Biology,68,Lee,Zhen-Tao
+E14105593,Physics,71,Ren,Hua-Qiang
+E14104599,English,0,Deng,Feng-Li
+E14102364,Chemistry,14,Lee,Zhen-Tao
+E14100310,Biology,41,Liang,Xiang-Shan
+E14104064,Biology,23,Jiang,Ying-Bo
+E14109348,Art,82,Xie,Tao-Zhi
+E14103687,Computer Science,37,Chen,Ping-Fang
+E14106410,Mathematics,97,Jiang,Yan-Tao
+E14103656,Art,10,Zhou,Zhong-Zhen
+E14108248,History,5,Liang,Zhen-Wei
+E14105278,Chemistry,89,Gao,Zhen-Ping
+E14102364,Computer Science,43,Lee,Zhen-Tao
+E14103826,Art,61,Cao,Hao-Hao
+E14102424,History,56,Wang,Rong-Zhong
+E14102333,Physical Education,84,Sun,Ying-Qiu
+E14105032,English,67,Tang,Rong-Ning
+E14106216,Mathematics,14,Wu,Wen-Kun
+E14100310,Physical Education,100,Liang,Xiang-Shan
+E14101229,History,55,Chang,Xia-Zhi
+E14108925,Physical Education,72,Zhang,Kun-Hao
+E14108323,Biology,96,Huang,Wei-Guo
+E14109552,Chemistry,61,Ma,Bo-Zhi
+E14100648,Art,12,Liang,Yan-Shan
+E14101956,Geography,84,Xu,Ning-Lei
+E14100648,Physics,76,Liang,Yan-Shan
+E14109266,History,4,Lin,Ning-Wei
+E14100648,Chemistry,77,Liang,Yan-Shan
+E14101378,Physics,31,Wu,Xia-Jian
+E14105667,Mathematics,20,Zhou,Tao-Ming
+E14105294,History,64,Liang,Zhi-Zhi
+E14108166,Mathematics,40,Chang,Ning-Kun
+E14106410,English,12,Jiang,Yan-Tao
+E14109517,Physical Education,35,Chen,Hao-Feng
+E14106216,Computer Science,65,Wu,Wen-Kun
+E14100257,Chemistry,43,Qian,Wen-Hua
+E14108113,English,84,Zhou,Shan-Zhi
+E14100245,Art,36,Yang,Ming-Tao
+E14106496,English,2,Chang,Xia-Xia
+E14105667,Physics,86,Zhou,Tao-Ming
+E14102424,Biology,58,Wang,Rong-Zhong
+E14101378,Geography,7,Wu,Xia-Jian
+E14108669,Computer Science,54,Zhao,Feng-Wen
+E14106733,English,45,Sun,Ying-Hua
+E14109517,History,67,Chen,Hao-Feng
+E14108166,Physical Education,96,Chang,Ning-Kun
+E14106909,English,89,Xu,Ping-Xia
+E14106909,History,77,Xu,Ping-Xia
+E14101782,Physics,32,Ma,Jie-Ying
+E14105593,Mathematics,33,Ren,Hua-Qiang
+E14106909,English,88,Xu,Ping-Xia
+E14100741,Physics,53,Tang,Zhi-Ting
+E14101869,Mathematics,62,Pan,Zhi-Hua
+E14102333,Physics,65,Sun,Ying-Qiu
+E14103783,Geography,31,Zhou,Feng-Zhen
+E14105739,Computer Science,68,Guo,Xia-Chao
+E14104064,Biology,13,Jiang,Ying-Bo
+E14105401,Geography,19,Chen,Ping-Zhong
+E14106216,History,1,Wu,Wen-Kun
+E14108778,Biology,56,Yuan,Shan-Zhen
+E14108925,Biology,35,Zhang,Kun-Hao
+E14101378,Geography,59,Wu,Xia-Jian
+E14108323,Biology,77,Huang,Wei-Guo
+E14102408,Biology,55,Chang,Li-Qiang
+E14100310,History,89,Liang,Xiang-Shan
+E14100609,History,20,Liu,Xiang-Jie
+E14109108,History,28,Lin,Yan-Fang
+E14106073,Computer Science,51,Sun,Hua-Ying
+E14108144,Biology,5,Pan,Wei-Chao
+E14100245,Geography,97,Yang,Ming-Tao
+E14107671,Mathematics,42,Lee,Yan-Kun
+E14100245,Computer Science,60,Yang,Ming-Tao
+E14102898,History,6,Qian,Kun-Ting
+E14108248,Computer Science,54,Liang,Zhen-Wei
+E14102558,Art,18,Gao,Ting-Zhi
+E14105920,Physical Education,91,Ren,Chao-Xiang
+E14102558,Art,81,Gao,Ting-Zhi
+E14104506,Biology,79,Cao,Zhong-Hua
+E14102408,Chemistry,88,Chang,Li-Qiang
+E14109108,Physical Education,36,Lin,Yan-Fang
+E14108113,English,41,Zhou,Shan-Zhi
+E14102364,Physics,51,Lee,Zhen-Tao
+E14103687,Chemistry,85,Chen,Ping-Fang
+E14102396,Biology,2,Liu,Zhi-Fang
+E14105920,History,48,Ren,Chao-Xiang
+E14106841,Geography,30,Yuan,Ning-Zhong
+E14109835,History,61,Liang,Yan-Li
+E14102424,Computer Science,42,Wang,Rong-Zhong
+E14108089,Biology,75,Ma,Ting-Ming
+E14102558,Biology,8,Gao,Ting-Zhi
+E14104064,Computer Science,80,Jiang,Ying-Bo
+E14108380,English,100,Deng,Ming-Ying
+E14108248,Physical Education,4,Liang,Zhen-Wei
+E14106523,English,83,Ding,Shan-Rong
+E14100245,Chemistry,18,Yang,Ming-Tao
+E14102558,Art,26,Gao,Ting-Zhi
+E14103687,Physics,8,Chen,Ping-Fang
+E14104478,Computer Science,61,Gao,Xia-Zhong
+E14105368,Physics,43,Xu,Jian-Shan
+E14102364,Geography,96,Lee,Zhen-Tao
+E14104607,Physical Education,48,Guo,Hao-Dan
+E14101869,History,66,Pan,Zhi-Hua
+E14100609,Mathematics,10,Liu,Xiang-Jie
+E14101523,Computer Science,92,Shi,Hua-Zhong
+E14105377,Physics,63,Pan,Ying-Hao
+E14102558,English,74,Gao,Ting-Zhi
+E14104541,Physics,21,Qian,Wen-Zhong
+E14105368,Chemistry,31,Xu,Jian-Shan
+E14105278,Art,17,Gao,Zhen-Ping
+E14107651,Computer Science,90,Liang,Guo-Yan
+E14101826,Computer Science,56,Zhang,Li-Ning
+E14108144,Computer Science,42,Pan,Wei-Chao
+E14102265,Physics,81,Xu,Hao-Yan
+E14102558,Biology,43,Gao,Ting-Zhi
