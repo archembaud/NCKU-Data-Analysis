@@ -166,7 +166,7 @@ User e0ca46d4-d159-4f20-ac8b-9dcd03c024c0 has 3 rules in the combined dataframe.
 
 A CSV file will also be produced holding the resulting data contained in the dataframe.
 
-## P-7 Merge Demonstration I
+## P-7 Merge Demonstration I - Left Join
 
 This demonstration is the first in the series to use two different starting dataframes and combine them into one. To summarise, this code demonstrates:
 * using a common column (in this case, student IDs) to identify a connection between dataframes, and
@@ -184,3 +184,24 @@ Loading data from ./../Data/SmallStudentSet/exams_data.csv
 3  E14108778         Chemistry     31    Yuan  Shan-Zhen
 4  E14105739           English     22     Guo   Xia-Chao
 ```
+
+## P-8 Merge Demonstration II - Inner Join
+
+This demonstration continues from P-7 - except, this time, there are exams present that do not have accompanying student records. This happens in industry often - databases are not properly cleaned on deletion of records, leaving hanging data. This code:
+
+* Uses an inner join to combine the exams and student detail dataframes. An inner merge only occurs when both datasets contain the data required to proceed.
+* Uses a not operator (~) to find the exams which do not have an accompanying student record.
+
+This code is executed in the same way as all the other codes: **python main.py**.
+
+If correct, the code will produce this output:
+
+```
+Loading data from ./../Data/broken_students_data.csv
+Loading data from ./../Data/broken_exams_data.csv
+Number of exam records: 120
+Number of exam records after inner merge: 100
+Number of dropped exam records: 20
+```
+
+We can see that, for this dataset, there are 20 exams dropped.
