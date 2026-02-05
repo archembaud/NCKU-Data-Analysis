@@ -13,6 +13,9 @@ print(f"The names variable has type = {type(names)} and contains {names}")
 # Add this point, the names list contains both Bruce Wayne and Clark Kent
 backup_names = names
 
+# Create a real backup using copy
+better_backup = names.copy()
+
 # See how many items are in the list
 print(f"The list contains {len(names)} names")
 
@@ -23,4 +26,5 @@ names.remove('Clark Kent')
 print(f"The names list now contains {names}")
 
 # Print the backup list - does it contain the values you expect?
-print(f"The backup list contains {backup_names}")
+# backup_names is not a true copy, but better_backup is thanks to the copy() method.
+print(f"The backup list contains {backup_names} while the better backup contains {better_backup}")
