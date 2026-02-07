@@ -13,3 +13,7 @@ print(f"My name is {firstName} {lastName}")
 result = wholeName.split(" ")
 print(f"Split result = {result}")
 print(f"result has type {type(result)}") # This will give you a list
+
+# Use the join method
+joinedName = " ".join(result)
+print(f"The joined name is {joinedName}")

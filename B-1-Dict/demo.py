@@ -4,7 +4,19 @@ superhero = {
     'firstName': 'Bruce',
     'lastName': 'Wayne',
     'superheroName': '',
-    'age': 41
+    'age': 41,
+    'kids': [
+        {
+            'firstName': 'Robin',
+            'lastName': 'Wayne',
+            'age': 12
+        },
+        {
+            'firstName': 'Mary',
+            'lastName': 'Wayne',
+            'age': 8
+        }
+    ]
 }
 
 # Use an f-string to show what is in this object
@@ -24,3 +36,4 @@ superhero['power'] = 'money'
 
 # And use these keys for reading
 print(f"{superhero['firstName']} {superhero['lastName']} is actually {superhero['superheroName']}, and their superpower is {superhero['power']}")
+
