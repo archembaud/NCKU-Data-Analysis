@@ -1,0 +1,48 @@
+{
+  "students": [
+    {
+      "id": 1,
+      "name": "Alice Chen",
+      "age": 20,
+      "major": "Mechanical Engineering",
+      "scores": {
+        "Mathematics": 92,
+        "Physics": 88,
+        "Computer Science": 95
+      }
+    },
+    {
+      "id": 2,
+      "name": "Brian Lee",
+      "age": 21,
+      "major": "Computer Science",
+      "scores": {
+        "Mathematics": 85,
+        "Data Structures": 90,
+        "Operating Systems": 87
+      }
+    },
+    {
+      "id": 3,
+      "name": "Catherine Wang",
+      "age": 22,
+      "major": "Electrical Engineering",
+      "scores": {
+        "Circuits": 89,
+        "Electromagnetics": 91,
+        "Mathematics": 86
+      }
+    },
+    {
+      "id": 4,
+      "name": "David Huang",
+      "age": 23,
+      "major": "Civil Engineering",
+      "scores": {
+        "Structural Analysis": 84,
+        "Mathematics": 78,
+        "Materials Science": 82
+      }
+    }
+  ]
+}
