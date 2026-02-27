@@ -18,3 +18,11 @@ jsonDict['age'] = '201'
 newJsonString = json.dumps(jsonDict, indent=4)
 print(f"Our new json is {newJsonString} with type {type(newJsonString)}")
 
+# Load the student data from json
+with open("./../Data/students.json", "r", encoding="utf-8") as file:
+    dataDict = json.load(file)
+
+# Now we can use this to print out the names
+for student in dataDict['students']:
+    print(f"Looking at student {student['name']}: {student}")
+
