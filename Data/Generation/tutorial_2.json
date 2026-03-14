@@ -1,0 +1,104 @@
+{
+    "students": [
+        {
+            "id": 0,
+            "name": "student_0",
+            "grades": {
+                "Mathematics": 59,
+                "Science": 56,
+                "English": 55
+            },
+            "isFailing": true
+        },
+        {
+            "id": 1,
+            "name": "student_1",
+            "grades": {
+                "Mathematics": 99,
+                "Science": 52,
+                "English": 77
+            },
+            "isFailing": true
+        },
+        {
+            "id": 2,
+            "name": "student_2",
+            "grades": {
+                "Mathematics": 80,
+                "Science": 56,
+                "English": 87
+            },
+            "isFailing": true
+        },
+        {
+            "id": 3,
+            "name": "student_3",
+            "grades": {
+                "Mathematics": 88,
+                "Science": 82,
+                "English": 51
+            },
+            "isFailing": true
+        },
+        {
+            "id": 4,
+            "name": "student_4",
+            "grades": {
+                "Mathematics": 62,
+                "Science": 84,
+                "English": 96
+            },
+            "isFailing": false
+        },
+        {
+            "id": 5,
+            "name": "student_5",
+            "grades": {
+                "Mathematics": 54,
+                "Science": 89,
+                "English": 98
+            },
+            "isFailing": true
+        },
+        {
+            "id": 6,
+            "name": "student_6",
+            "grades": {
+                "Mathematics": 56,
+                "Science": 58,
+                "English": 73
+            },
+            "isFailing": true
+        },
+        {
+            "id": 7,
+            "name": "student_7",
+            "grades": {
+                "Mathematics": 81,
+                "Science": 74,
+                "English": 50
+            },
+            "isFailing": true
+        },
+        {
+            "id": 8,
+            "name": "student_8",
+            "grades": {
+                "Mathematics": 96,
+                "Science": 92,
+                "English": 63
+            },
+            "isFailing": false
+        },
+        {
+            "id": 9,
+            "name": "student_9",
+            "grades": {
+                "Mathematics": 79,
+                "Science": 67,
+                "English": 57
+            },
+            "isFailing": true
+        }
+    ]
+}
