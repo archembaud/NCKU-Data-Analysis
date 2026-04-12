@@ -13,9 +13,17 @@ if __name__ == "__main__":
     print(f"Loading data from {file_path}")
     data = load_data(file_path)
     
-    # Now, let's create a new dataframe where the flower type is 'Iris-setosa'
-    setosa_data = data[data['Class'] == 'Iris-setosa']
+    # Find the data I want - Just the Iris Setosa flowers
+    desired_indices = data['Class'] == 'Iris-setosa'
+    print(f"Desired indicies = {desired_indices}, the type is {type(desired_indices)}")
 
+    # I can extract just the data I want...
+    setosa_sepal_length = data['SepalLength'][desired_indices]
+    mean_sepal_length = setosa_sepal_length.mean()
+    print(f"Mean Sepal Length of Iris-setosa: {mean_sepal_length}")
+    
+    # Or, let's create a new dataframe where the flower type is 'Iris-setosa'
+    setosa_data = data[desired_indices]
     # Compute the mean sepal length for Iris-setosa
     mean_sepal_length = setosa_data['SepalLength'].mean()
     print(f"Mean Sepal Length of Iris-setosa: {mean_sepal_length}")
