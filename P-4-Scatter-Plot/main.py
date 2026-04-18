@@ -21,14 +21,14 @@ if __name__ == "__main__":
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
     ax.scatter(setosa_data['SepalLength'], setosa_data['SepalWidth'], setosa_data['PetalLength'], c='r', marker='o')
-    ax.set_xlabel('Sepal Length')
-    ax.set_ylabel('Sepal Width')
-    ax.set_zlabel('Petal Length')
 
     # Now, add the data for Iris-versicolor in a different color
     versicolor_data = data[data['Class'] == 'Iris-versicolor']
     ax.scatter(versicolor_data['SepalLength'], versicolor_data['SepalWidth'], versicolor_data['PetalLength'], c='b', marker='o') 
 
     # Show the plot
+    ax.set_xlabel('Sepal Length')
+    ax.set_ylabel('Sepal Width')
+    ax.set_zlabel('Petal Length')
     ax.set_title('3D Scatter Plot of Iris-setosa and Iris-versicolor')
     plt.show()
