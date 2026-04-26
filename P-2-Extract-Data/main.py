@@ -5,6 +5,8 @@ def load_data(file_path):
     data = pd.read_csv(file_path)
     print("Initial Data:")
     print(data.head())
+    print("Column names:")
+    print(data.columns)
     return data
 
 def save_data(data, file_path):
